@@ -88,7 +88,7 @@
   body.low-power canvas.ascii-bg{display:none!important}
 
   /* ============ Deck 容器 + 翻页 ============ */
-  #deck{position:fixed;inset:0;width:10000vw;height:100vh;display:flex;flex-wrap:nowrap;transition:transform .9s cubic-bezier(.77,0,.175,1);z-index:10;will-change:transform}
+  #deck{position:fixed;inset:0;width:10000vw;height:100vh;display:flex;flex-wrap:nowrap;overflow:hidden;transition:transform .9s cubic-bezier(.77,0,.175,1);z-index:10;will-change:transform}
   .slide{
     width:100vw;height:100vh;flex:0 0 100vw;
     position:relative;
